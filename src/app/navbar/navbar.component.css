@@ -1,0 +1,61 @@
+
+.sidebar{
+  display:block;
+  height: 100vh; 
+  width: 100%;
+  /*background-color:rgb(0, 23, 44); */
+  background-color: #0f1d22;
+  padding:0 20px;
+  box-shadow: 1px 0 2px #c4b594;
+
+}
+svg{
+  fill: #d7b65d;
+  width:20px;
+  height:20px;
+  opacity: 0.5;
+  margin-right: 15px;
+  margin-bottom: 50px;
+}
+svg:hover{
+  opacity: 1;
+}
+  img{
+    height:200px;
+    width: 200px;
+    
+
+  }
+  .sidebar nav ul {
+    list-style-type: none;
+    padding: 20px;
+  }
+  
+  .sidebar nav ul li {
+    margin:10px 50px 20px 10px ;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+    text-align: center;
+  }
+  .sidebar nav ul li a:hover{
+    border-bottom: 2px dotted rgba(215, 182, 93, 1);
+    
+  }
+
+  button:hover{
+    background-color: rgba(215, 182, 93, 1);
+    transition: 0.5s ease-in-out;
+}
+  
+  .content {
+    margin-left: 270px; /* إزاحة المحتوى الرئيسي ليكون بجانب الـ navbar */
+    padding: 20px;
+  }
+  

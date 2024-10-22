@@ -1,0 +1,17 @@
+.ph0{
+    height: 70vh;
+    background-image: url("../../../assets/reseme/22_1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1px ;
+
+}
+.ph1{
+    height: 70vh;
+
+    background-image: url("../../../assets/reseme/22_2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

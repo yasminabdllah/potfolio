@@ -1,0 +1,75 @@
+#works{
+    font-family: "Playfair Display", serif;
+}
+
+.row{
+    min-height: 60vh;
+    margin-bottom: 20px;
+}
+.PORTFOLIO{
+
+    background-image: url("../../assets/works/Architecture\ Portfolio.jfif");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    margin-left: 5%;
+}
+.LEARNING{
+    background-image: url("../../assets/works/Kidsa\ -\ Kindergarten\ &\ School\ WordPress\ Theme.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.rock{
+    background-image: url("../../assets/works/Download\ Rock\ Paper\ Scissors\ Line\ Icons\ for\ free.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 5%;
+    margin-right: 10px;
+}
+.simple{
+    background-image: url("../../assets/works/Know\ Your\ Worth—How\ to\ Calculate\ Your\ Hourly\ Rate\ As\ a\ Freelancer\ —\ Create\ +\ Cultivate.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 10px;
+}
+.TO{
+    background-image: url("../../assets/works/My\ UX\ Wishlist\ for\ To-Do\ list\ apps.jfif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row div{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight:bold;
+     position: relative;
+     color:rgba(1, 49, 95, 1);
+     z-index: 1;
+}
+.row div:before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity:0.2;
+    transition: .7s ease all;
+    z-index: -1;
+    transform:scaleX(0);
+}
+.row div:hover:before{
+    transform:scaleX(1);
+}
+.row div:hover{
+    color: white;
+}
+.title{
+    color:rgba(1, 49, 95, 1);
+}

@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+
+button{
+    padding:10px 15px;
+    color: white;
+    border: 1px solid rgb(215, 182, 93);
+    background: transparent;
+    cursor:pointer;
+    text-transform: uppercase;
+    color: rgb(215, 182, 93);
+}
+button:hover{
+    background-color: rgba(215, 182, 93, 1);
+    transition: 0.5s ease-in-out;
+    color: white;
+}
+
+a:hover{
+    color:rgb(215, 182, 93);
+    font-weight:600; 
+    cursor:pointer;
+    
+}

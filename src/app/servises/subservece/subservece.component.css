@@ -1,0 +1,56 @@
+.row{
+    min-height:60vh;
+}
+.img{
+    background-image: url("../../../assets/servises/responsive\ \(1\).jfif");
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+}
+p{
+    text-align: justify;
+}
+button{
+    position:sticky;
+    top: 0;
+    left:10%;
+    color:#d7b65d ;
+
+    
+}
+button:hover{
+   background-color: #d7b65d;
+   color: aliceblue;
+   transition: 0.7s ease all;
+}
+.img2{
+    background-image: url("../../../assets/servises/user\ ex.jfif");
+   
+    background-size:contain;
+    background-repeat: no-repeat;
+
+}
+.contact_info{
+    background-color :rgb(235, 236, 243); 
+  
+    color:gray;
+    border-top-right-radius: 70%;
+    z-index: 0;
+}
+input{
+    color:gray;
+    
+}
+svg{
+    width:20px;
+    height:20px;
+    margin-right: 20px;
+    fill:#1c0246;
+    opacity: 0.5;
+}
+svg:hover {
+    opacity: 1;
+}
+.contact_info p:hover{
+    color:#1c0246;
+}

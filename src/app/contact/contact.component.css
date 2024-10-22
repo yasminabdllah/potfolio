@@ -1,0 +1,82 @@
+*{
+    font-family: "Playfair Display", serif;
+    font-weight: bold;
+}
+.bg_out{
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+}
+.row{
+    height: 100vh;
+}
+
+.bg{
+    
+    height: 100%;
+    background-image: url('../../assets/contact/download\ \(4\).jfif');
+    background-size: cover;
+}
+h2{
+   color: aliceblue;
+}
+.bg:hover{
+    
+    scale:1.1;
+    transition: 0.7s ease all;
+}
+
+.input ,.bg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+       
+    
+}
+p{
+    color:#d7b65d;
+}
+.row input{
+    
+    border:none;
+    border-bottom: 1px solid rgb(20, 54, 70);
+    width:60%;
+    margin-bottom:20px;
+    padding:15px;
+    color: black;
+}
+button{
+    width:fit-content;
+}
+.message{
+    height: 20vh;
+}
+
+svg{
+    width:15px;
+    height:20px;
+    margin-right: 10px;
+    fill:#d7b65d;
+}
+.contact_info{
+    background:#091316;
+    padding: 50px;
+
+}
+.contact_info p,input,svg{
+    color:aliceblue;
+    opacity: 0.5;
+}
+.contact_info:hover p,input,svg{
+    opacity: 1;
+}
+.sign{
+    border-top: 1px solid aliceblue;
+    color:aliceblue;
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    font-weight:normal;
+    
+}

@@ -1,0 +1,65 @@
+*{
+    color: white;
+    padding-left: 3%;
+
+}
+.main{
+    background-color:#183946;
+    /*rgb(1, 39, 75);*/
+}
+h5{
+    color:#d7b65d ;
+}
+p{
+    text-align: justify;
+}
+a{
+    color: #d7b65d !important;
+}
+.card{
+  border: none;
+   background-color: transparent;
+   margin:0 40px 20px 0;
+   transition: 0.5;
+   position:relative;
+   z-index: 1;
+
+}
+
+.card:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    opacity:0.2;
+    transition: .7s ease all;
+    z-index: -1;
+    transform:scaleX(0);
+}
+
+    .card:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color:black;
+        opacity:0.2;
+        transition: .7s ease all;
+        z-index: -1;
+        transform:scaleY(0);
+    }
+    .card:hover:before {
+        transform: scaleY(1); 
+    }
+    .card:hover:after {
+         transform: scaleX(1); 
+    }
+.ph{
+    width: 50px;
+    fill: #d7b65d;
+}

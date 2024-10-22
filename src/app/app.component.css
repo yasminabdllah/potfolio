@@ -1,0 +1,10 @@
+body{
+    background-color:rgba(1, 49, 95, 1);
+    
+}
+app-navbar{
+    position:fixed; 
+    top: 0;
+    left: 0;
+     
+}
