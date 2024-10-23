@@ -8,3 +8,11 @@ app-navbar{
     left: 0;
      
 }
+svg{
+    fill: #d7b65d;
+    width:20px;
+    height:20px;
+    opacity: 0.5;
+    margin-right: 15px;
+    margin-bottom: 50px;
+  }

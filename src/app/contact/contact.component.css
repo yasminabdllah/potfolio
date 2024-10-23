@@ -17,9 +17,7 @@
     background-image: url('../../assets/contact/download\ \(4\).jfif');
     background-size: cover;
 }
-h2{
-   color: aliceblue;
-}
+
 .bg:hover{
     
     scale:1.1;
@@ -46,25 +44,17 @@ p{
     padding:15px;
     color: black;
 }
-button{
-    width:fit-content;
-}
+
 .message{
     height: 20vh;
 }
 
-svg{
-    width:15px;
-    height:20px;
-    margin-right: 10px;
-    fill:#d7b65d;
-}
 .contact_info{
     background:#091316;
     padding: 50px;
 
 }
-.contact_info p,input,svg{
+.contact_info p,input{
     color:aliceblue;
     opacity: 0.5;
 }

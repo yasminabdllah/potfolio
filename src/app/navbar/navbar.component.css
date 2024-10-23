@@ -9,14 +9,7 @@
   box-shadow: 1px 0 2px #c4b594;
 
 }
-svg{
-  fill: #d7b65d;
-  width:20px;
-  height:20px;
-  opacity: 0.5;
-  margin-right: 15px;
-  margin-bottom: 50px;
-}
+
 svg:hover{
   opacity: 1;
 }
